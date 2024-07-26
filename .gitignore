@@ -1,0 +1,187 @@
+static/media/
+database/
+media/
+_backup/
+*.dump
+latest.dump
+latest.dump.1
+latest.dump.2
+boekhouding/invoice_retriever.py
+boekhouding/invoices
+boekhouding/work_folder/incoming_invoice.pdf
+boekhouding/work_folder/outgoing_invoice.pdf
+boekhouding/work_folder/complete_incoming_invoice.pdf
+boekhouding/work_folder/complete_incoming_invoices.pdf
+boekhouding/work_folder/complete_outgoing_invoices.pdf
+boekhouding/work_folder/*.pdf
+node_modules/
+dist/
+build/
+
+staticfiles/*
+
+_docs_user/source/_build/*
+_docs_developer/source/_build/*
+
+mikropakket/labels/*
+
+commands.txt
+migrations.txt
+
+yeoki_env/
+
+.DS_Store
+
+*.sql
+*.pyc
+*.zip
+email_tester/
+backup/
+
+.cache/
+outgoing_credit_notes.pdf
+
+.ruff_cache/*
+
+.devcontainer/*
+
+.vscode/*
+.vscode/
+*/.vscode/*
+*/.vscode/
+
+fixtures_maker/
+testspace/
+notes.txt
+creds/*
+amazon/toolbox
+workspace/
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Backup files #
+*.bak
+
+# If you are using PyCharm #
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+*.iws /out/
+
+# Python #
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery
+celerybeat-schedule.*
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Sublime Text #
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# sftp configuration file
+sftp-config.json
+
+# Package control specific files Package
+Control.last-run
+Control.ca-list
+Control.ca-bundle
+Control.system-ca-bundle
+GitHub.sublime-settings
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Test Generated Files
+be.csv
+
+# Celery and Redis
+dump.rdb
+
+
+# Pickle Token Files
+*.pickle
+
+# Certificate Credentials
+ibanity_api/credentials/certificate.pem
